@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar {
+    display: flex;
+    width: 30rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid black;
+    height: 2rem;
+    justify-content: center;
+}
+
+.progress {
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: green;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+}
+.para{
+    color: white;
+    position: relative;
+    z-index: 10;
+}
